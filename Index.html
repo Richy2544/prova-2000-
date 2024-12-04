@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relazioni di Laboratorio</title>
+    <link rel="stylesheet" href="../Stile.css/Stile_Relazioni.css">
+    <style>
+        /* Stile per la copertina */
+        .copertina {
+            position: relative;
+            width: 100%;
+            height: 1000px;
+            background-image: url(../Immagini/DALL·E\ 2024-12-03\ 09.28.53\ -\ A\ dynamic\ and\ modern\ cover\ image\ with\ a\ scientific\ theme\ focused\ on\ physics\,\ incorporating\ elements\ like\ formulas\,\ a\ glowing\ atom\,\ abstract\ representa.jpg); /* Modifica il percorso con quello corretto */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .copertina h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="copertina">
+        <h1>LA FISICA DELLA 2a C INFORMATICA</h1>
+       
+    </div>
+    <main>
+        <section id="titolo">
+            <center>Relazioni Di Laboratorio</center>
+        </section>
+        <section>
+            <ul>
+                <li><a href="../Relazioni.html/Moto_Rettilineo_Uniformemente_Accelerato.html">Relazione 1: Moto Rettilineo Uniformemente Accelerato</a></li>
+                <li><a href="Relazioni.html/Caduta_Libera.html">Relazione 2: Studio della Caduta Libera</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Prove Pratiche</h2>
+            <ul>
+                <li><a href="javascript:calcolaMRUA()">Prova 1: Moto Rettilineo Uniformemente Accelerato</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Simulazione Movimento</h2>
+            <label for="posizioneFotocellula">Distanza Fotocellula (px):</label>
+            <input type="number" id="posizioneFotocellula" value="450" min="0" max="500">
+            <div id="binario">
+                <div id="quadrato"></div>
+                <div id="fotocellula"></div>
+            </div>
+            <div id="metro">Distanza percorsa: <span id="distanza">0</span> px</div>
+            <div id="cronometro">Tempo: <span id="tempo">0.00</span> s</div>
+            <button id="start">Inizia</button>
+        </section>
+    </main>
+    <footer>
+        <p>Progetto creato da Sicali Riccardo, Juanbautista Dinaccio, Luca FROCIO</p>
+    </footer>
+    <script src="../Prove.js/MRUA.js"></script>
+    <script src="../Prove.js/Simulazione.js"></script>
+</body>
+</html>

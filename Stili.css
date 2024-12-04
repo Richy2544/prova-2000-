@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007acc;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+h1, h2 {
+    color: #007acc;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+.conclusioni {
+    background-color: #e7f4ff;
+}
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.rettangolo-blu {
+    background-color: #007acc; /* Colore di sfondo blu */
+    color: white; /* Colore del testo bianco */
+    text-align: center; /* Centra il testo orizzontalmente */
+    padding: 40px; /* Distanza tra il testo e i bordi del rettangolo */
+    font-size: 100px; /* Grandezza del testo */
+    font-weight: bold; /* Grassetto per il testo */
+    letter-spacing: 2px; /* Distanza tra le lettere per maggiore leggibilità */
+    text-transform: uppercase; /* Trasforma il testo in maiuscolo */
+}/* Stile per la copertina */
+.cover {
+    position: relative;
+    width: 200%;
+    height: 50vh; /* Altezza della copertina */
+    background-image: url(../Immagini/DALL·E\ 2024-12-03\ 09.28.53\ -\ A\ dynamic\ and\ modern\ cover\ image\ with\ a\ scientific\ theme\ focused\ on\ physics\,\ incorporating\ elements\ like\ formulas\,\ a\ glowing\ atom\,\ abstract\ representa.jpg); /* Inserisci qui il link dell'immagine */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cover .title {
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
